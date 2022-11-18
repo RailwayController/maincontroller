@@ -3,9 +3,10 @@ SPDX-FileCopyrightText: 2022 Sidings Media <contact@sidingsmedia.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Railway Controller
+# Railway Controller - Main control board
 
-Template repository
+This repository contains designs for the main controller board for
+use with the railway controller system.
 
 ## Licence
 This repo uses the [REUSE](https://reuse.software) standard in order to
