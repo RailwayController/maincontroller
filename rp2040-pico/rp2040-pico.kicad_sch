@@ -1,6 +1,15 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e87542fb-542a-4dd7-9471-1151b0f1ad87)
 
   (paper "A4")
+
+  (title_block
+    (title "RP2040/Pico Main Control Board")
+    (rev "0.1")
+    (company "Sidings Media")
+    (comment 1 "Licence: CERN-OHL-P-2.0 or any later version")
+  )
 
   (lib_symbols
     (symbol "EuroCard160mmX100mm_holes:Mounting_Hole_PAD-Mechanical" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
@@ -20,7 +29,10 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Mounting_Hole_PAD-Mechanical_0_1"
-        (circle (center 0 1.27) (radius 1.27) (stroke (width 1.27)) (fill (type none)))
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
       )
       (symbol "Mounting_Hole_PAD-Mechanical_1_1"
         (pin input line (at 0 -2.54 90) (length 2.54)
@@ -32,10 +44,10 @@
   )
 
 
-  (no_connect (at 16.51 172.72) (uuid fdd4c919-6e52-431b-845c-a91525c45790))
+  (no_connect (at 16.51 195.58) (uuid 5e8fca6d-7205-498a-9d33-da840d4d6e62))
   (no_connect (at 16.51 180.34) (uuid a3f6132d-d886-4be7-bc0a-8fcb9942394a))
   (no_connect (at 16.51 187.96) (uuid c85aee39-9b76-48a4-9beb-a8a7170e8b23))
-  (no_connect (at 16.51 195.58) (uuid 5e8fca6d-7205-498a-9d33-da840d4d6e62))
+  (no_connect (at 16.51 172.72) (uuid fdd4c919-6e52-431b-845c-a91525c45790))
 
   (symbol (lib_id "EuroCard160mmX100mm_holes:Mounting_Hole_PAD-Mechanical") (at 16.51 170.18 0) (unit 1)
     (in_bom yes) (on_board yes)

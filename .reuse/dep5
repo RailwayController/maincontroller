@@ -3,8 +3,6 @@ Upstream-Name: Railway Controller
 Upstream-Contact: Sidings Media <contact@sidingsmedia.com>
 Source: 
 
-# Sample paragraph, commented out:
-#
-# Files: src/*
-# Copyright: $YEAR $NAME <$CONTACT>
-# License: ...
+Files: rp2040-pico/*
+Copyright: 2022 Sidings Media <contact@sidingsmedia.com>
+License: CERN-OHL-P-2.0+
