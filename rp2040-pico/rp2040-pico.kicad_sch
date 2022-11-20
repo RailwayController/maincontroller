@@ -698,11 +698,11 @@
         )
       )
     )
-    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "C_Polarized" (id 1) (at 0.635 -2.54 0)
+      (property "Value" "C" (id 1) (at 0.635 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0.9652 -3.81 0)
@@ -714,39 +714,31 @@
       (property "ki_keywords" "cap capacitor" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Polarized capacitor" (id 5) (at 0 0 0)
+      (property "ki_description" "Unpolarized capacitor" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "CP_*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "C_Polarized_0_1"
-        (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0) (type default) (color 0 0 0 0))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -1.778 2.286)
-            (xy -0.762 2.286)
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
           )
-          (stroke (width 0) (type default) (color 0 0 0 0))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
           (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.794)
-            (xy -1.27 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
         )
       )
-      (symbol "C_Polarized_1_1"
+      (symbol "C_1_1"
         (pin passive line (at 0 3.81 270) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -2614,7 +2606,7 @@
     (pin "1" (uuid c14953be-94e0-444b-97fa-1f2149e88430))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 71.12 153.67 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 71.12 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0ca8227d-9dd5-4228-aacb-9980537454c9)
     (property "Reference" "C17" (id 0) (at 74.93 151.5109 0)
@@ -2665,7 +2657,7 @@
     (pin "3" (uuid 65da51f0-d3c3-483a-b31e-b6dbb1ec9dc1))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 29.21 148.59 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 29.21 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1a3ef285-e896-43fa-ace4-c1b01689afa5)
     (property "Reference" "C16" (id 0) (at 33.02 146.4309 0)
@@ -2854,7 +2846,7 @@
     (pin "1" (uuid e347311b-44be-4c74-8d1d-3d7710b01de6))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 86.36 148.59 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 86.36 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 53086c3f-f296-4635-9cb2-ccb92e98fad2)
     (property "Reference" "C18" (id 0) (at 90.17 146.4309 0)
