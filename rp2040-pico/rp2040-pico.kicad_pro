@@ -441,6 +441,14 @@
     [
       "e87542fb-542a-4dd7-9471-1151b0f1ad87",
       ""
+    ],
+    [
+      "f88a2e30-f4d9-4749-be3c-3c9bf4f2c5b6",
+      "I2C Address Selection"
+    ],
+    [
+      "db5cc6ec-32e5-4752-8117-f03b0aab0c5f",
+      "MCU"
     ]
   ],
   "text_variables": {}
