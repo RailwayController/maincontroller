@@ -2775,7 +2775,7 @@
     (property "Reference" "C19" (id 0) (at 149.86 184.1499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 149.86 186.6899 0)
+    (property "Value" "0.1u" (id 1) (at 149.86 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 147.0152 189.23 0)

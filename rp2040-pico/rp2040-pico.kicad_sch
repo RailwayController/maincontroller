@@ -3865,7 +3865,7 @@
       (reference "C18") (unit 1) (value "1u") (footprint "")
     )
     (path "/db5cc6ec-32e5-4752-8117-f03b0aab0c5f/4218549a-4008-4485-95b7-bcb275fb5695"
-      (reference "C19") (unit 1) (value "C") (footprint "")
+      (reference "C19") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/8c5492ae-3a20-4ecc-8ba6-f7e798c3cb33"
       (reference "D1") (unit 1) (value "SM4002") (footprint "Diode_SMD:D_MELF")
