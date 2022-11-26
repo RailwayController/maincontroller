@@ -7,7 +7,7 @@
   (title_block
     (title "RP2040/Pico Main Control Board")
     (date "2022-11-20")
-    (rev "0.2")
+    (rev "0.3")
     (company "Sidings Media")
     (comment 1 "Licence: CERN-OHL-P-2.0 or any later version")
   )
@@ -2845,7 +2845,7 @@
   (symbol (lib_id "Transistor_FET:DMG2301L") (at 119.38 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 255897cd-577a-49cf-b1db-c7ca093d5552)
-    (property "Reference" "Q?" (id 0) (at 113.03 105.4099 0)
+    (property "Reference" "Q9" (id 0) (at 113.03 105.4099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMG2305UX" (id 1) (at 113.03 107.9499 0)
@@ -2885,7 +2885,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2bc78eb9-33bd-4ec0-93a8-07b0b899168b)
-    (property "Reference" "#PWR?" (id 0) (at 116.84 102.87 0)
+    (property "Reference" "#PWR025" (id 0) (at 116.84 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 116.84 93.98 0))
@@ -3086,7 +3086,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.27 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 610b3310-ba0a-40e1-a2c2-d34ccd60552f)
-    (property "Reference" "TP?" (id 0) (at 128.27 114.3 0))
+    (property "Reference" "TP18" (id 0) (at 128.27 114.3 0))
     (property "Value" "TestPoint" (id 1) (at 125.73 111.2521 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -3467,7 +3467,7 @@
   (symbol (lib_id "Diode:MBR1020VL") (at 135.89 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bae283a3-77de-4f07-ad43-2f7d207a132a)
-    (property "Reference" "D?" (id 0) (at 135.5725 93.98 0))
+    (property "Reference" "D8" (id 0) (at 135.5725 93.98 0))
     (property "Value" "MBR1020VL" (id 1) (at 135.5725 96.52 0))
     (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 135.89 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3936,6 +3936,9 @@
     (path "/db5cc6ec-32e5-4752-8117-f03b0aab0c5f/bca64c6b-567e-4761-b04d-cc5f58f4af02"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
+    (path "/2bc78eb9-33bd-4ec0-93a8-07b0b899168b"
+      (reference "#PWR025") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/3f1b00fa-7c07-4e68-8180-02fb9c5edd20"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
@@ -4007,9 +4010,6 @@
     )
     (path "/db5cc6ec-32e5-4752-8117-f03b0aab0c5f/e19553e0-d008-4ceb-a6a1-86c32d3322d7"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2bc78eb9-33bd-4ec0-93a8-07b0b899168b"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/f88a2e30-f4d9-4749-be3c-3c9bf4f2c5b6/92d6a064-7bf0-4854-8f68-f21dccd2eea9"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -4090,7 +4090,7 @@
       (reference "D7") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/bae283a3-77de-4f07-ad43-2f7d207a132a"
-      (reference "D?") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D8") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/96aba777-9ddb-4238-bfd5-baee0b5d77c4"
       (reference "J2") (unit 1) (value "DIN41612_02x16_AB") (footprint "Connector_DIN:DIN41612_B2_2x16_Male_Horizontal_THT")
@@ -4141,7 +4141,7 @@
       (reference "Q8") (unit 1) (value "DMG2305UX") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/255897cd-577a-49cf-b1db-c7ca093d5552"
-      (reference "Q?") (unit 1) (value "DMG2305UX") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q9") (unit 1) (value "DMG2305UX") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f88a2e30-f4d9-4749-be3c-3c9bf4f2c5b6/69070d9a-2a51-47d0-a485-e017644661b7"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -4296,11 +4296,11 @@
     (path "/db5cc6ec-32e5-4752-8117-f03b0aab0c5f/d77dba58-d9a3-49fd-809c-60212ff9754b"
       (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/610b3310-ba0a-40e1-a2c2-d34ccd60552f"
+      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/db5cc6ec-32e5-4752-8117-f03b0aab0c5f/c086ba49-5b0b-443f-9ba0-e2ff7fc8b22f"
       (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/610b3310-ba0a-40e1-a2c2-d34ccd60552f"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/f88a2e30-f4d9-4749-be3c-3c9bf4f2c5b6/3f3dfeae-ac77-4740-a1fc-64ca6140ff46"
       (reference "U1") (unit 1) (value "74151") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")

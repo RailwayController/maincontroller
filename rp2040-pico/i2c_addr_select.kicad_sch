@@ -7,7 +7,7 @@
   (title_block
     (title "RP2040/Pico Main Control Board")
     (date "2022-11-20")
-    (rev "0.2")
+    (rev "0.3")
     (company "Sidings Media")
     (comment 1 "Licence: CERN-OHL-P-2.0 or any later version")
   )
