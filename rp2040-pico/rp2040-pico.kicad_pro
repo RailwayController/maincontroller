@@ -64,7 +64,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -86,7 +86,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -545,7 +545,6 @@
           "+5V",
           "/VBUS",
           "/VREG_OUT",
-          "GND",
           "Net-(C17-Pad1)",
           "Net-(C18-Pad1)",
           "Net-(D3-Pad2)",
@@ -577,7 +576,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "../template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
