@@ -6,3 +6,7 @@ Source:
 Files: rp2040-pico/*
 Copyright: 2022 Sidings Media <contact@sidingsmedia.com>
 License: CERN-OHL-P-2.0+
+
+Files: assets/*
+Copyright: 2022 Sidings Media <contact@sidingsmedia.com>
+License: CC-BY-SA-4.0
